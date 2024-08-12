@@ -1,0 +1,5 @@
+"0","# Here render a table for the DALY burden over time for the three countries."
+"0","# You should pivot the data wider to show each country in a separate column."
+"0","data_cmnn_wide  <- pivot_wider(data_cmnn_mini, names_from = Entity, values_from = `DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: Age-standardized (Rate)`)"
+"0","# Use kable() from the knitr package to render the table."
+"0","kable(data_cmnn_wide, caption = ""DALY Burden Over Time for Data"")"
